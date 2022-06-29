@@ -33,17 +33,13 @@ const FilmBox = () => {
       ]
     );
 
-    const[link, setLink] = useState(
-      ["https://www.imdb.com/calendar/?region=gb"]
-    )
-
   return (
     <>
     <h1>Upcoming Film Releases for UK</h1>
     <hr></hr>
     <FilmList films = {films}/>
     <hr></hr>
-    <Link link={link}/>
+    <Link/>
     </>
   )
 }

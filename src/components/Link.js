@@ -1,8 +1,8 @@
 import React from "react";
 
-const Link = ({link}) => {
+const Link = () => {
   return(
-    <a href={url}>View more upcoming releases</a>
+    <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a>
   )
 }
 
